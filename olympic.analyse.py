@@ -65,6 +65,7 @@ print(points_table_df)
 
 
 medal_counts = olympic_resultTable_df[['gold', 'silver', 'bronze']]
+print(medal_counts)
 points = numpy.dot(medal_counts, [4, 2, 1])
 
 olympic_pointsTable = {

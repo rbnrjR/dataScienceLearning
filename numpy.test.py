@@ -15,7 +15,7 @@ print('standard deviation -- > ', std)
 a = [1, 2]
 b = [[2, 4, 6], [3, 5, 7]]
 
-print(numpy.dot(a, b))
+print(numpy.dot(a, b))             # dot multiplication
 
 c = [[2, 4, 6], [3, 5, 7]]
 d = [[2, 6], [4, 5], [6, 3]]
